@@ -1,6 +1,6 @@
-skillsnetwork
 numpy
 pandas
+requests
 Pillow
 scikit-image
 torch
