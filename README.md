@@ -1,5 +1,6 @@
 # U2Net-Code-Engine
 
+- Deploy U-squared Net for human portrait drawing using Gradio for creating the user interface and IBM Code Engine for containerized app deployment.
 
 <img width="1511" alt="Screen Shot 2023-01-15 at 11 30 59 PM" src="https://user-images.githubusercontent.com/67382870/212599372-afb3aa9e-bddb-4baa-9481-f0a1f6fe924e.png">
 
