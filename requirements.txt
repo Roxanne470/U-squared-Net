@@ -1,0 +1,8 @@
+skillsnetwork
+numpy
+pandas
+Pillow
+scikit-image
+torch
+torchvision
+gradio
