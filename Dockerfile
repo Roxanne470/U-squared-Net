@@ -6,4 +6,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "-u", "/app/demo.py"]
+CMD ["python", "-u", "app/demo.py"]
