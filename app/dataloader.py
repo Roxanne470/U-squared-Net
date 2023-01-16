@@ -12,13 +12,13 @@ from torch.utils.data import Dataset
 def download_model_weights():
 
     url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IND-GPXX0JV6EN/LargeData/u2net.tgz"
-    target_path = "pretrained_u2net.tgz"
+    target_path = "u2net.tgz"
     response = requests.get(url, stream=True)
     if response.status_code == 200:
         with open(target_path, 'wb') as f:
             f.write(response.raw.read())
 
-    file = tarfile.open("pretrained_u2net.tgz")
+    file = tarfile.open("u2net.tgz")
     file.extractall()
     file.close()
 

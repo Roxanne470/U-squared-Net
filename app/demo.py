@@ -20,7 +20,7 @@ import gradio as gr
 
 download_model_weights()
 net = U2NET(3, 1)
-net.load_state_dict(torch.load("pretrained_u2net.pth", map_location='cpu'))
+net.load_state_dict(torch.load("u2net.pth", map_location='cpu'))
 
 def predict(inp):
 
